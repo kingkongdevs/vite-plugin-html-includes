@@ -1,6 +1,6 @@
 {
   "name": "@kingkongdevs/vite-plugin-html-includes",
-  "version": "1.0.6",
+  "version": "1.0.5",
   "description": "Plugin for Vite that replaces include tags with corresponding HTML components",
   "main": "index.js",
   "scripts": {
