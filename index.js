@@ -3,7 +3,7 @@ const { resolve } = require('path');
 const { parse } = require('node-html-parser');
 
 function viteHTMLIncludes(options = {}) {
-    const { componentsPath = '/components/' } = options;
+    const componentsPath = options.componentsDir || '/components/';
     let config;
 
     function evaluateWithLocals(code, locals) {
